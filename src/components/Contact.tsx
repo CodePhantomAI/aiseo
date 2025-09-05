@@ -73,7 +73,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <div className="font-semibold text-gray-900">אימייל</div>
-                  <div className="text-gray-600">info@eranfixer.com</div>
+                  <div className="text-gray-600">info@fixier.org</div>
                 </div>
               </div>
               

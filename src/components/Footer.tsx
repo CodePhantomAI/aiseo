@@ -16,11 +16,11 @@ const Footer: React.FC = () => {
                 <div className="bg-gradient-to-br from-blue-500 to-blue-600 p-2 rounded-xl">
                   <Brain className="h-6 w-6 text-white" />
                 </div>
-                <span className="text-xl font-bold">EranFixer AI SEO</span>
+                <span className="text-xl font-bold">Fixier.org</span>
               </div>
               <p className="text-gray-400 mb-6 text-sm leading-relaxed">
                 SEO מונחה-בינה מלאכותית עם בקרה אנושית מקצועית. 50% אדם + 50% AI = 100% תוצאות מדידות.
-                פלטפורמה מתקדמת זמינה גם ב<a href="https://ai.eranfixer.co.il" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300">כתובת הייעודית</a>.
+                פלטפורמה מתקדמת זמינה ב<a href="https://fixier.org" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300">fixier.org</a>.
               </p>
               <div className="flex space-x-4">
                 <button className="bg-gray-800 hover:bg-gray-700 p-2 rounded-lg transition-colors">
@@ -123,17 +123,17 @@ const Footer: React.FC = () => {
         <div className="border-t border-gray-800 py-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm mb-4 md:mb-0">
-              © {currentYear} EranFixer AI SEO. כל הזכויות שמורות.
+              © {currentYear} Fixier.org. כל הזכויות שמורות.
             </div>
             <div className="flex items-center space-x-6 text-sm">
-              <a href="https://eranfixer.com/terms" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://fixier.org/terms" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                 תנאי שימוש
               </a>
-              <a href="https://eranfixer.com/privacy" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://fixier.org/privacy" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                 מדיניות פרטיות
               </a>
-              <a href="https://eranfixer.co.il" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors flex items-center">
-                אתר ראשי
+              <a href="https://fixier.org" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors flex items-center">
+                דף הבית
                 <ExternalLink className="h-4 w-4 mr-1" />
               </a>
             </div>
