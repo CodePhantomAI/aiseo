@@ -69,7 +69,7 @@ const Services: React.FC = () => {
           <p className="text-xl text-gray-600 max-w-3xl mx-auto" itemProp="description">
             מגוון שירותי <a href="https://eranfixer.co.il" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">קידום אתרים</a> מתקדמים המבוססים על 
             <a href="https://ai.eranfixer.co.il" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">בינה מלאכותית</a> עם בקרה אנושית מקצועית.
-            השירותים כוללים גם <a href="https://eranfixer.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">בניית אתרים</a> ו<a href="https://eran-fixer.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">שיווק עסקים</a> מתקדמים.
+            השירותים כוללים גם <a href="https://eranfixer.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">בניית אתרים</a> ו<a href="https://eran-fixer.com" target=\"_blank" rel="noopener noreferrer\" className="text-blue-600 hover:text-blue-700">שיווק עסקים</a> מתקדמים.
           </p>
         </div>
 
@@ -120,9 +120,8 @@ const Services: React.FC = () => {
               תהליך העבודה שלנו
             </h3>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              מ-AI ל-Human: תהליך מובנה שמבטיח איכות ותוצאות בכל שירותי <a href="https://eranfixer.co.il" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">קידום האתרים</a>,
-              <a href="https://eranfixer.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 mr-1 ml-1">בניית האתרים</a> 
-              ו<a href="https://eran-fixer.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">שיווק העסקים</a> שלנו.
+              מ-AI ל-Human: תהליך מובנה שמבטיח איכות ותוצאות. 
+              הטכנולוגיות והכלים שלנו פותחו במיוחד עבור הפלטפורמה של <a href="https://fixier.org" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">Fixier.org</a>.
             </p>
           </div>
 
