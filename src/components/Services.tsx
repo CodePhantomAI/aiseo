@@ -68,10 +68,8 @@ const Services: React.FC = () => {
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto" itemProp="description">
             מגוון שירותי <a href="https://eranfixer.co.il" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">קידום אתרים</a> מתקדמים המבוססים על 
-            <a href="https://ai.eranfixer.co.il" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">בינה מלאכותית</a>{" "}
-            עם בקרה אנושית מקצועית.
-            השירותים כוללים גם <a href="https://eranfixer.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">בניית אתרים</a>{" "}
-            ו<a href="https://eran-fixer.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">שיווק עסקים</a> מתקדמים.
+            <a href="https://ai.eranfixer.co.il" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">בינה מלאכותית</a> עם בקרה אנושית מקצועית.
+            השירותים כוללים גם <a href="https://eranfixer.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">בניית אתרים</a> ו<a href="https://eran-fixer.com" target=\"_blank" rel="noopener noreferrer\" className="text-blue-600 hover:text-blue-700">שיווק עסקים</a> מתקדמים.
           </p>
         </div>
 

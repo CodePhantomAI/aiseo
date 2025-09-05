@@ -83,18 +83,19 @@ const Footer: React.FC = () => {
             <div>
               <h3 className="text-lg font-semibold mb-6">משאבים</h3>
               <ul className="space-y-3 mb-6">
-                {([
+                {[
                   { name: 'בלוג ומאמרים', link: '#resources' },
                   { name: 'מילון SEO-AI', link: '#resources' },
                   { name: 'תבניות בריף', link: '#resources' },
                   { name: 'מקרי לקוח', link: '#resources' },
                   { name: 'כלים מומלצים', link: '#resources' },
-                  { name: 'שאלות נפוצות', link: '#contact' },
+                  { name: 'שאלות נפוצות', link: '#contact' }
+                ].concat([
                   { name: 'קידום אתרים', link: 'https://eranfixer.co.il', external: true },
                   { name: 'בניית אתרים', link: 'https://eranfixer.com', external: true },
                   { name: 'שיווק עסקים', link: 'https://eran-fixer.com', external: true },
                   { name: 'AI SEO', link: 'https://ai.eranfixer.co.il', external: true }
-                ]).map((resource, index) => (
+                ].map((resource, index) => (
                   <li key={index}>
                     <a href={resource.link} {...(resource.external ? { target: "_blank", rel: "noopener noreferrer" } : {})} className="text-gray-400 hover:text-white transition-colors text-sm">
                       {resource.name}

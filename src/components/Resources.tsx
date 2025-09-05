@@ -80,8 +80,7 @@ const Resources: React.FC = () => {
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto" itemProp="description">
             מרכז הידע שלנו עם מדריכים לשיפור <a href="https://eranfixer.co.il" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">קידום האתרים</a>,
-            <a href="https://ai.eranfixer.co.il" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 mr-1 ml-1">בינה מלאכותית</a>{" "}
-            ו<a href="https://eran-fixer.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">שיווק עסקים</a>.
+            <a href="https://ai.eranfixer.co.il" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 mr-1 ml-1">בינה מלאכותית</a> ו<a href="https://eran-fixer.com" target=\"_blank" rel="noopener noreferrer\" className="text-blue-600 hover:text-blue-700">שיווק עסקים</a>.
             כלים לכל מי שמתעניין ב<a href="https://eranfixer.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">בניית אתרים</a> מקצועיים.
           </p>
         </div>
