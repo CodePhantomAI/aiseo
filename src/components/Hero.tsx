@@ -40,7 +40,8 @@ const Hero: React.FC = () => {
           </p>
           <p className="text-lg text-gray-600 mb-8 max-w-3xl mx-auto">
             פחות רעש, יותר כניסות איכותיות. עם בקרה אנושית מלאה.
-            טכנולוגיה מתקדמת המשלבת <a href="https://ai.eranfixer.co.il" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 font-medium">קידום באמצעות בינה מלאכותית</a> עם <a href="https://eranfixer.co.il" target=\"_blank" rel="noopener noreferrer\" className="text-blue-600 hover:text-blue-700 font-medium">קידום אתרים</a> מסורתי.
+            טכנולוגיה מתקדמת המשלבת <a href="https://ai.eranfixer.co.il" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 font-medium">קידום באמצעות בינה מלאכותית</a>{" "}
+            עם <a href="https://eranfixer.co.il" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 font-medium">קידום אתרים</a> מסורתי.
           </p>
 
           {/* Value Props */}
