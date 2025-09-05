@@ -104,7 +104,7 @@ const Services: React.FC = () => {
                 </ul>
                 
                 <button className={`w-full bg-white ${colorClasses.hover} hover:text-white border-2 ${colorClasses.border} ${colorClasses.text} font-semibold py-3 px-4 rounded-xl transition-all duration-300 flex items-center justify-center group`}>
-                  <span onClick={() => window.open('https://fixier.org/services', '_blank')} className="cursor-pointer">קרא עוד</span>
+                  <span onClick={() => document.getElementById('contact')?.scrollIntoView({behavior: 'smooth'})} className="cursor-pointer">קבל הצעה</span>
                   <ArrowLeft className="h-4 w-4 mr-2" />
                 </button>
               </div>
