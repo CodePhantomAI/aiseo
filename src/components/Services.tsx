@@ -120,7 +120,7 @@ const Services: React.FC = () => {
             </h3>
             <p className="text-gray-600 max-w-2xl mx-auto">
               מ-AI ל-Human: תהליך מובנה שמבטיח איכות ותוצאות. 
-              למידע נוסף על התהליכים שלנו ראו ב<a href="https://fixier.org" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">אתר הראשי</a>.
+              הטכנולוגיות והכלים שלנו פותחו במיוחד עבור הפלטפורמה של <a href="https://fixier.org" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">Fixier.org</a>.
             </p>
           </div>
 

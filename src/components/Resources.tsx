@@ -80,7 +80,7 @@ const Resources: React.FC = () => {
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto" itemProp="description">
             מרכז הידע שלנו עם מדריכים, כלים ותובנות שיעזרו לכם להבין ולשפר את ה-SEO שלכם. 
-            למידע נוסף וכלים מתקדמים, בקרו ב<a href="https://fixier.org" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">פלטפורמת Fixier</a> הראשית.
+            למידע נוסף וכלים מתקדמים, <a href="#contact" className="text-blue-600 hover:text-blue-700">צרו איתנו קשר</a> ונדריך אתכם אישית.
           </p>
         </div>
 
