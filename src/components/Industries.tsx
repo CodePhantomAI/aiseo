@@ -111,10 +111,9 @@ const Industries: React.FC = () => {
                   </ul>
                 </div>
                 
-                <button className={`w-full bg-gradient-to-r ${colorClasses.gradient} ${colorClasses.hover} text-white font-semibold py-3 px-4 rounded-xl transition-all duration-300 flex items-center justify-center group`}>
-                  <span className="text-sm">{industry.cta}</span>
+                <a href={`https://fixier.org/industries/${industry.title.toLowerCase().replace(/\s+/g, '-')}`} target="_blank" rel="noopener noreferrer" className={`w-full bg-gradient-to-r ${colorClasses.gradient} ${colorClasses.hover} text-white font-semibold py-3 px-4 rounded-xl transition-all duration-300 flex items-center justify-center group no-underline`}>
+                  <span className="text-sm">למידע נוסף</span>
                   <ArrowLeft className="h-4 w-4 mr-2" />
-                </button>
               </div>
             );
           })}

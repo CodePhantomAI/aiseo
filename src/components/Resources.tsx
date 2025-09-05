@@ -167,7 +167,7 @@ const Resources: React.FC = () => {
                     {resource.description}
                   </p>
                   <a href="https://fixier.org/resources" target="_blank" rel="noopener noreferrer" className={`text-sm font-medium ${colorClasses.text} hover:underline flex items-center`}>
-                    גש למשאב
+                    צפה במשאב
                     <ArrowLeft className="h-3 w-3 mr-1" />
                   </a>
                 </div>
