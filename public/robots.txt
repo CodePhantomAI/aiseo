@@ -1,5 +1,5 @@
-# Robots.txt for EranFixer AI SEO
-# https://ai.eranfixer.co.il/robots.txt
+# Robots.txt for Fixier.org
+# https://fixier.org/robots.txt
 
 User-agent: *
 Allow: /
@@ -9,7 +9,7 @@ Disallow: /*.json$
 Disallow: /api/
 
 # XML Sitemap
-Sitemap: https://ai.eranfixer.co.il/sitemap.xml
+Sitemap: https://fixier.org/sitemap.xml
 
 # Crawl-delay for respectful crawling
 Crawl-delay: 1

@@ -68,7 +68,7 @@ const Services: React.FC = () => {
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto" itemProp="description">
             מגוון שירותי SEO מתקדמים המבוססים על בינה מלאכותית עם בקרה אנושית מקצועית. 
-            הטכנולוגיות והכלים שלנו פותחו במיוחד עבור הפלטפורמה ב<a href="https://eranfixer.co.il" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">אתר החברה הראשי</a>.
+            הטכנולוגיות והכלים שלנו פותחו במיוחד עבור הפלטפורמה ב<a href="https://fixier.org" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">אתר החברה הראשי</a>.
           </p>
         </div>
 
@@ -120,7 +120,7 @@ const Services: React.FC = () => {
             </h3>
             <p className="text-gray-600 max-w-2xl mx-auto">
               מ-AI ל-Human: תהליך מובנה שמבטיח איכות ותוצאות. 
-              למידע נוסף על התהליכים שלנו ראו ב<a href="https://eranfixer.co.il" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">אתר הראשי</a>.
+              למידע נוסף על התהליכים שלנו ראו ב<a href="https://fixier.org" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">אתר הראשי</a>.
             </p>
           </div>
 

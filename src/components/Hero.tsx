@@ -40,7 +40,7 @@ const Hero: React.FC = () => {
           </p>
           <p className="text-lg text-gray-600 mb-8 max-w-3xl mx-auto">
             פחות רעש, יותר כניסות איכותיות. עם בקרה אנושית מלאה. 
-            פיתוח מתקדם מבית <a href="https://eran-fixer.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 font-medium">EranFixer</a>.
+            פיתוח מתקדם מבית <a href="https://fixier.org" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 font-medium">Fixier.org</a>.
           </p>
 
           {/* Value Props */}
@@ -73,7 +73,7 @@ const Hero: React.FC = () => {
           {/* Secondary Message */}
           <p className="text-sm text-gray-500 mt-6 max-w-2xl mx-auto">
             מפת קלאסטרים ראשונית תוך יומיים + תוכנית 30 יום ללידים אורגניים.
-            התהליך מתבצע בפלטפורמה הייעודית: <a href="http://ai.eranfixer.co.il" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">ai.eranfixer.co.il</a>
+            התהליך מתבצע בפלטפורמה הייעודית: <a href="https://fixier.org" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">fixier.org</a>
           </p>
         </div>
       </div>

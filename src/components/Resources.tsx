@@ -80,7 +80,7 @@ const Resources: React.FC = () => {
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto" itemProp="description">
             מרכז הידע שלנו עם מדריכים, כלים ותובנות שיעזרו לכם להבין ולשפר את ה-SEO שלכם. 
-            למידע נוסף וכלים מתקדמים, בקרו ב<a href="https://eranfixer.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">פלטפורמת EranFixer</a> הראשית.
+            למידע נוסף וכלים מתקדמים, בקרו ב<a href="https://fixier.org" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">פלטפורמת Fixier</a> הראשית.
           </p>
         </div>
 
@@ -89,6 +89,7 @@ const Resources: React.FC = () => {
           <div className="flex items-center justify-between mb-8">
             <h3 className="text-2xl font-bold text-gray-900">מאמרים חדשים</h3>
             <a href="https://eranfixer.com/blog" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 font-medium flex items-center">
+            <a href="https://fixier.org/blog" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 font-medium flex items-center">
               צפו בכל המאמרים
               <ArrowLeft className="h-4 w-4 mr-2" />
             </a>
@@ -97,6 +98,7 @@ const Resources: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {blogPosts.map((post, index) => (
               <article key={index} className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group hover:-translate-y-1 cursor-pointer" onClick={() => window.open('https://eranfixer.com/blog', '_blank')}>
+              <article key={index} className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group hover:-translate-y-1 cursor-pointer" onClick={() => window.open('https://fixier.org/blog', '_blank')}>
                 <div className="aspect-w-16 aspect-h-9 bg-gray-200">
                   <img 
                     src={post.image} 
@@ -122,7 +124,7 @@ const Resources: React.FC = () => {
                   </p>
                   <div className="flex items-center justify-between">
                     <span className="text-xs text-gray-500">{post.readTime}</span>
-                    <a href="https://eranfixer.com/blog" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 font-medium text-sm flex items-center">
+                    <a href="https://fixier.org/blog" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 font-medium text-sm flex items-center">
                       קרא עוד
                       <ArrowLeft className="h-3 w-3 mr-1" />
                     </a>
@@ -166,7 +168,7 @@ const Resources: React.FC = () => {
                   <p className="text-gray-600 text-sm mb-4">
                     {resource.description}
                   </p>
-                  <a href="https://eranfixer.com/resources" target="_blank" rel="noopener noreferrer" className={`text-sm font-medium ${colorClasses.text} hover:underline flex items-center`}>
+                  <a href="https://fixier.org/resources" target="_blank" rel="noopener noreferrer" className={`text-sm font-medium ${colorClasses.text} hover:underline flex items-center`}>
                     גש למשאב
                     <ArrowLeft className="h-3 w-3 mr-1" />
                   </a>
@@ -184,7 +186,7 @@ const Resources: React.FC = () => {
             </h3>
             <p className="text-gray-600 max-w-2xl mx-auto">
               תשובות לשאלות הכי נפוצות על שירותי ה-AI SEO שלנו. 
-              לשאלות נוספות בקרו ב<a href="https://eranfixer.com/faq" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">מרכז התמיכה</a>.
+              לשאלות נוספות בקרו ב<a href="https://fixier.org/faq" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">מרכז התמיכה</a>.
             </p>
           </div>
 

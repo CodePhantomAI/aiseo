@@ -14,7 +14,7 @@ const About: React.FC = () => {
             התוצאה: תוכן חד שמשרת כוונת חיפוש, מבנה טכני מהיר, וקישורים שמחזקים סמכות.
             השירותים שלנו זמינים גם ב
             <a
-              href="https://eranfixer.co.il"
+              href="https://fixier.org"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:text-blue-700"
@@ -23,12 +23,12 @@ const About: React.FC = () => {
             </a>
             {' '}ובפלטפורמות נוספות של{' '}
             <a
-              href="https://eran-fixer.com"
+              href="https://fixier.org"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:text-blue-700"
             >
-              EranFixer
+              Fixier
             </a>
             .
           </p>

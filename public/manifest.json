@@ -1,6 +1,6 @@
 {
-  "name": "EranFixer AI SEO - קידום אתרים באמצעות בינה מלאכותית",
-  "short_name": "EranFixer AI SEO",
+  "name": "Fixier.org - קידום אתרים באמצעות בינה מלאכותית",
+  "short_name": "Fixier.org",
   "description": "SEO מונחה-בינה מלאכותית: 50% AI + 50% אנושי = 100% תוצאות מדידות",
   "start_url": "/",
   "display": "standalone",
@@ -43,6 +43,6 @@
     "קידום אתרים",
     "AI",
     "דיגיטל מרקטינג",
-    "EranFixer"
+    "Fixier"
   ]
 }

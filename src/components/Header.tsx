@@ -16,7 +16,7 @@ const Header: React.FC = () => {
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-2 rounded-xl">
                 <Brain className="h-6 w-6 text-white" />
               </div>
-              <span className="text-xl font-bold text-gray-900">EranFixer AI SEO</span>
+              <span className="text-xl font-bold text-gray-900">Fixier.org</span>
             </div>
           </div>
 

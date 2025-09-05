@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ai.eranfixer.co.il/</loc>
+    <loc>https://fixier.org/</loc>
     <lastmod>2025-01-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://ai.eranfixer.co.il/" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://fixier.org/" />
   </url>
   <url>
-    <loc>https://ai.eranfixer.co.il/#about</loc>
+    <loc>https://fixier.org/#about</loc>
     <lastmod>2025-01-15T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://ai.eranfixer.co.il/#about" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://fixier.org/#about" />
   </url>
   <url>
-    <loc>https://ai.eranfixer.co.il/#services</loc>
+    <loc>https://fixier.org/#services</loc>
     <lastmod>2025-01-15T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://ai.eranfixer.co.il/#services" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://fixier.org/#services" />
   </url>
   <url>
-    <loc>https://ai.eranfixer.co.il/#industries</loc>
+    <loc>https://fixier.org/#industries</loc>
     <lastmod>2025-01-15T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://ai.eranfixer.co.il/#industries" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://fixier.org/#industries" />
   </url>
   <url>
-    <loc>https://ai.eranfixer.co.il/#lead-magnet</loc>
+    <loc>https://fixier.org/#lead-magnet</loc>
     <lastmod>2025-01-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://ai.eranfixer.co.il/#lead-magnet" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://fixier.org/#lead-magnet" />
   </url>
   <url>
-    <loc>https://ai.eranfixer.co.il/#resources</loc>
+    <loc>https://fixier.org/#resources</loc>
     <lastmod>2025-01-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://ai.eranfixer.co.il/#resources" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://fixier.org/#resources" />
   </url>
   <url>
-    <loc>https://ai.eranfixer.co.il/#contact</loc>
+    <loc>https://fixier.org/#contact</loc>
     <lastmod>2025-01-15T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://ai.eranfixer.co.il/#contact" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://fixier.org/#contact" />
   </url>
 </urlset>
