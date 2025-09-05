@@ -90,20 +90,13 @@ const Footer: React.FC = () => {
                   { name: 'מקרי לקוח', link: '#resources' },
                   { name: 'כלים מומלצים', link: '#resources' },
                   { name: 'שאלות נפוצות', link: '#contact' }
-                ].map((resource, index) => (
-                  <li key={index}>
-                    <a href={resource.link} className="text-gray-400 hover:text-white transition-colors text-sm">
-                      {resource.name}
-                    </a>
-                  </li>
-                ))}
-                {[
+                ].concat([
                   { name: 'קידום אתרים', link: 'https://eranfixer.co.il', external: true },
                   { name: 'בניית אתרים', link: 'https://eranfixer.com', external: true },
                   { name: 'שיווק עסקים', link: 'https://eran-fixer.com', external: true },
                   { name: 'AI SEO', link: 'https://ai.eranfixer.co.il', external: true }
                 ].map((resource, index) => (
-                  <li key={`external-${index}`}>
+                  <li key={index}>
                     <a href={resource.link} {...(resource.external ? { target: "_blank", rel: "noopener noreferrer" } : {})} className="text-gray-400 hover:text-white transition-colors text-sm">
                       {resource.name}
                     </a>
