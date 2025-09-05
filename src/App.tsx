@@ -8,6 +8,7 @@ import LeadMagnet from './components/LeadMagnet';
 import Resources from './components/Resources';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import CookieBanner from './components/legal/CookieBanner';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
+      <CookieBanner />
     </div>
   );
 }

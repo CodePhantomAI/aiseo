@@ -14,7 +14,12 @@ const CookieBanner: React.FC = () => {
   useEffect(() => {
     const consent = localStorage.getItem('cookieConsent');
     if (!consent) {
-      setShowBanner(true);
+      // הצג באנר אחרי 2 שניות כדי לא להפריע לחוויית המשתמש
+      const timer = setTimeout(() => {
+        setShowBanner(true);
+      }, 2000);
+      
+      return () => clearTimeout(timer);
     }
   }, []);
 

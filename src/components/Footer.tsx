@@ -132,6 +132,12 @@ const Footer: React.FC = () => {
               <a href="#contact" className="text-gray-400 hover:text-white transition-colors">
                 מדיניות פרטיות
               </a>
+              <a href="#contact" className="text-gray-400 hover:text-white transition-colors">
+                נגישות
+              </a>
+              <a href="#contact" className="text-gray-400 hover:text-white transition-colors">
+                קוקיס
+              </a>
               <a href="https://fixier.org" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors flex items-center">
                 דף הבית
                 <ExternalLink className="h-4 w-4 mr-1" />
