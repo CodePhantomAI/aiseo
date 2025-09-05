@@ -72,8 +72,45 @@ const Industries: React.FC = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6" itemProp="name">
             התעשיות שלנו
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto" itemProp="description">
-            אנחנו מתמחים במגוון תחומים ומכירים לעומק את האתגרים הייחודיים של כל תעשייה
+            דוגמאות לתוצאות שהשגנו באמצעות{" "}
+            <a
+              href="https://ai.eranfixer.co.il"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:text-blue-700"
+            >
+              בינה מלאכותית
+            </a>{" "}
+            ו
+            <a
+              href="https://eranfixer.co.il"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:text-blue-700"
+            >
+              קידום אתרים
+            </a>{" "}
+            מתקדם.
+            {" "}
+            מקרי לקוח נוספים ב
+            <a
+              href="https://eran-fixer.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:text-blue-700"
+            >
+              שיווק עסקים
+            </a>{" "}
+            ו
+            <a
+              href="https://eranfixer.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:text-blue-700"
+            >
+              בניית אתרים
+            </a>
+            .
           </p>
         </div>
 
