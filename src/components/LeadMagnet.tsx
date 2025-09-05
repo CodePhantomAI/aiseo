@@ -20,7 +20,25 @@ const LeadMagnet: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Here you would normally send the data to your backend
+    
+    // יצירת הודעת וואטסאפ עם הפרטים מהטופס
+    const message = `בקשה למפת קלאסטרים חינמית:
+
+📝 שם: ${formData.name}
+📧 אימייל: ${formData.email}
+📱 טלפון: ${formData.phone}
+🌐 אתר: ${formData.website || 'לא צוין'}
+🏢 תחום: ${formData.business || 'לא צוין'}
+
+אודה לקבלת מפת הקלאסטרים ופגישת יעוץ חינמית.`;
+    
+    // קידוד ההודעה עבור URL
+    const encodedMessage = encodeURIComponent(message);
+    
+    // פתיחת וואטסאפ
+    const whatsappUrl = `https://wa.me/972522126366?text=${encodedMessage}`;
+    window.open(whatsappUrl, '_blank');
+    
     setIsSubmitted(true);
   };
 
