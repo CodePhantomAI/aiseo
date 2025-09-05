@@ -19,8 +19,10 @@ const Footer: React.FC = () => {
                 <span className="text-xl font-bold">Fixier.org</span>
               </div>
               <p className="text-gray-400 mb-6 text-sm leading-relaxed">
-                SEO מונחה-בינה מלאכותית עם בקרה אנושית מקצועית. 50% אדם + 50% AI = 100% תוצאות מדידות.
-                פלטפורמה מתקדמת זמינה ב<a href="https://fixier.org" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300">fixier.org</a>.
+                <a href="https://eranfixer.co.il" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300">קידום אתרים</a> מונחה-בינה מלאכותית עם בקרה אנושית מקצועית.
+                נוסף על <a href="https://ai.eranfixer.co.il" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300">AI SEO</a>, אנחנו מציעים
+                <a href="https://eranfixer.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 mr-1 ml-1">בניית אתרים</a>
+                ו<a href="https://eran-fixer.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300">שיווק עסקים בישראל</a>.
               </p>
               <div className="flex space-x-4">
                 <button className="bg-gray-800 hover:bg-gray-700 p-2 rounded-lg transition-colors">
@@ -88,9 +90,14 @@ const Footer: React.FC = () => {
                   { name: 'מקרי לקוח', link: '#resources' },
                   { name: 'כלים מומלצים', link: '#resources' },
                   { name: 'שאלות נפוצות', link: '#contact' }
+                ].concat([
+                  { name: 'קידום אתרים', link: 'https://eranfixer.co.il', external: true },
+                  { name: 'בניית אתרים', link: 'https://eranfixer.com', external: true },
+                  { name: 'שיווק עסקים', link: 'https://eran-fixer.com', external: true },
+                  { name: 'AI SEO', link: 'https://ai.eranfixer.co.il', external: true }
                 ].map((resource, index) => (
                   <li key={index}>
-                    <a href={resource.link} className="text-gray-400 hover:text-white transition-colors text-sm">
+                    <a href={resource.link} {...(resource.external ? { target: "_blank", rel: "noopener noreferrer" } : {})} className="text-gray-400 hover:text-white transition-colors text-sm">
                       {resource.name}
                     </a>
                   </li>
@@ -138,8 +145,8 @@ const Footer: React.FC = () => {
               <a href="#contact" className="text-gray-400 hover:text-white transition-colors">
                 קוקיס
               </a>
-              <a href="https://fixier.org" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors flex items-center">
-                דף הבית
+              <a href="https://eranfixer.co.il" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors flex items-center">
+                קידום אתרים
                 <ExternalLink className="h-4 w-4 mr-1" />
               </a>
             </div>

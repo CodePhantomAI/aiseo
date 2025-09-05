@@ -83,8 +83,9 @@ const LeadMagnet: React.FC = () => {
             </h2>
             
             <p className="text-xl text-blue-100 mb-8">
-              ניתוח ראשוני של 5-7 קלאסטרים סמנטיים + הצעות תוכן מדויקות לאתר שלכם.
-              השירות מבוסס על הפלטפורמה המתקדמת של <a href="https://fixier.org" target="_blank" rel="noopener noreferrer" className="text-blue-200 hover:text-white underline">Fixier.org</a>.
+              ניתוח ראשוני של 5-7 קלאסטרים סמנטיים + הצעות תוכן מדויקות. השירות מבוסס על
+              <a href="https://ai.eranfixer.co.il" target="_blank" rel="noopener noreferrer" className="text-blue-200 hover:text-white underline mr-1 ml-1">טכנולוגיית AI</a>
+              מתקדמת ומשולב עם <a href="https://eranfixer.co.il" target="_blank" rel="noopener noreferrer" className="text-blue-200 hover:text-white underline">קידום אתרים</a> מקצועי.
             </p>
 
             <div className="space-y-4 mb-8">

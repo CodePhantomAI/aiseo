@@ -10,25 +10,10 @@ const About: React.FC = () => {
             השיטה שלנו: <span className="text-blue-600">50/50</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto" itemProp="description">
-            אנחנו משלבים כריית־דאטה חכמה, קלאסטרינג סמנטי ויצירת בריפים מדויקים – עם עריכה אנושית שמוודאת אמת ואיכות.
-            התוצאה: תוכן חד שמשרת כוונת חיפוש, מבנה טכני מהיר, וקישורים שמחזקים סמכות.
-            השירותים שלנו זמינים גם ב
-            <a
-              href="#services"
-              className="text-blue-600 hover:text-blue-700 mr-1 ml-1"
-            >
-              השירותים שלנו
-            </a>
-            ובפלטפורמה המתקדמת של{' '}
-            <a
-              href="https://fixier.org"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 hover:text-blue-700 mr-1"
-            >
-              Fixier
-            </a>
-            .
+            אנחנו משלבים <a href="https://ai.eranfixer.co.il" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">קידום באמצעות בינה מלאכותית</a> עם מומחיות אנושית מקצועית.
+            התוצאה: <a href="https://eranfixer.co.il" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">קידום אתרים</a> מדויק שמשרת כוונת חיפוש, 
+            <a href="https://eranfixer.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 mr-1 ml-1">בניית אתרים</a> 
+            מהירה ומקצועית, ו<a href="https://eran-fixer.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">שיווק עסקים בישראל</a> המבוסס על תובנות נתונים.
           </p>
         </div>
 

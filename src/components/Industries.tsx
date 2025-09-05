@@ -135,8 +135,8 @@ const Industries: React.FC = () => {
               סיפורי הצלחה מהתעשיות שלנו
             </h3>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              כמה דוגמאות לתוצאות שהשגנו עבור לקוחותינו בתחומים שונים. 
-              למקרי לקוח מפורטים יותר, בקרו ב<a href="https://eran-fixer.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">פלטפורמה המרכזית</a>.
+              דוגמאות לתוצאות שהשגנו באמצעות <a href="https://ai.eranfixer.co.il" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">בינה מלאכותית</a> ו<a href="https://eranfixer.co.il" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">קידום אתרים</a> מתקדם.
+              מקרי לקוח נוספים ב<a href="https://eran-fixer.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">שיווק עסקים</a> ו<a href="https://eranfixer.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">בניית אתרים</a>.
             </p>
           </div>
 
