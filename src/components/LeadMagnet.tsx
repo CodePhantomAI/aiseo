@@ -66,7 +66,7 @@ const LeadMagnet: React.FC = () => {
             
             <p className="text-xl text-blue-100 mb-8">
               ניתוח ראשוני של 5-7 קלאסטרים סמנטיים + הצעות תוכן מדויקות לאתר שלכם.
-              השירות מבוסס על הפלטפורמה המתקדמת של <a href="https://eranfixer.com" target="_blank" rel="noopener noreferrer" className="text-blue-200 hover:text-white underline">EranFixer</a>.
+              השירות מבוסס על הפלטפורמה המתקדמת של <a href="https://fixier.org" target="_blank" rel="noopener noreferrer" className="text-blue-200 hover:text-white underline">Fixier.org</a>.
             </p>
 
             <div className="space-y-4 mb-8">
