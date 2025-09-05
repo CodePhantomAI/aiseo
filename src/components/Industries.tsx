@@ -111,10 +111,18 @@ const Industries: React.FC = () => {
                   </ul>
                 </div>
                 
-                <a href={`https://fixier.org/industries/${industry.title.toLowerCase().replace(/\s+/g, '-')}`} target="_blank\" rel="noopener noreferrer\" className={`w-full bg-gradient-to-r ${colorClasses.gradient} ${colorClasses.hover} text-white font-semibold py-3 px-4 rounded-xl transition-all duration-300 flex items-center justify-center group no-underline`}>
+                <button
+                  onClick={() => {
+                    const message = `שלום, אני מעוניין לשמוע על שירותי ה-SEO עבור ${industry.title}. אשמח לקבל פרטים נוספים ומחירון.`;
+                    const encodedMessage = encodeURIComponent(message);
+                    const whatsappUrl = `https://wa.me/972522126366?text=${encodedMessage}`;
+                    window.open(whatsappUrl, '_blank');
+                  }}
+                  className={`w-full bg-gradient-to-r ${colorClasses.gradient} ${colorClasses.hover} text-white font-semibold py-3 px-4 rounded-xl transition-all duration-300 flex items-center justify-center group`}
+                >
                   <span className="text-sm">למידע נוסף</span>
                   <ArrowLeft className="h-4 w-4 mr-2" />
-                </a>
+                </button>
               </div>
             );
           })}
