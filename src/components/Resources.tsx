@@ -88,7 +88,6 @@ const Resources: React.FC = () => {
         <div className="mb-20">
           <div className="flex items-center justify-between mb-8">
             <h3 className="text-2xl font-bold text-gray-900">מאמרים חדשים</h3>
-            <a href="https://eranfixer.com/blog" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 font-medium flex items-center">
             <a href="https://fixier.org/blog" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 font-medium flex items-center">
               צפו בכל המאמרים
               <ArrowLeft className="h-4 w-4 mr-2" />
@@ -97,7 +96,6 @@ const Resources: React.FC = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {blogPosts.map((post, index) => (
-              <article key={index} className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group hover:-translate-y-1 cursor-pointer" onClick={() => window.open('https://eranfixer.com/blog', '_blank')}>
               <article key={index} className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group hover:-translate-y-1 cursor-pointer" onClick={() => window.open('https://fixier.org/blog', '_blank')}>
                 <div className="aspect-w-16 aspect-h-9 bg-gray-200">
                   <img 
