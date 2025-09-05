@@ -14,19 +14,17 @@ const About: React.FC = () => {
             התוצאה: תוכן חד שמשרת כוונת חיפוש, מבנה טכני מהיר, וקישורים שמחזקים סמכות.
             השירותים שלנו זמינים גם ב
             <a
-              href="https://fixier.org"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 hover:text-blue-700"
+              href="#services"
+              className="text-blue-600 hover:text-blue-700 mr-1 ml-1"
             >
-              אתר הראשי
+              השירותים שלנו
             </a>
-            {' '}ובפלטפורמות נוספות של{' '}
+            ובפלטפורמה המתקדמת של{' '}
             <a
               href="https://fixier.org"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 hover:text-blue-700"
+              className="text-blue-600 hover:text-blue-700 mr-1"
             >
               Fixier
             </a>
