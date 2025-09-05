@@ -114,9 +114,9 @@ const Contact: React.FC = () => {
               <div className="space-y-3">
                 <a href="https://calendly.com/eranfixer" target="_blank" rel="noopener noreferrer" className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-4 rounded-lg transition-colors flex items-center justify-center">
                   <Calendar className="h-4 w-4 ml-2" />
-                  קביעת פגישה
+                  צרו קשר בוואטסאפ
                 </a>
-                <a href="https://wa.me/972522126366" target="_blank" rel="noopener noreferrer" className="w-full bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-4 rounded-lg transition-colors flex items-center justify-center">
+                <a href="https://wa.me/972522126366?text=היי, אני מעוניין לשמוע על שירותי ה-SEO שלכם" target="_blank" rel="noopener noreferrer" className="w-full bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-4 rounded-lg transition-colors flex items-center justify-center">
                   <MessageCircle className="h-4 w-4 ml-2" />
                   שיחה בוואטסאפ
                 </a>

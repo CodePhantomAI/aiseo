@@ -87,7 +87,7 @@ const Footer: React.FC = () => {
                   { name: 'תבניות בריף', link: '#resources' },
                   { name: 'מקרי לקוח', link: '#resources' },
                   { name: 'כלים מומלצים', link: '#resources' },
-                  { name: 'שאלות נפוצות', link: '#resources' }
+                  { name: 'שאלות נפוצות', link: '#contact' }
                 ].map((resource, index) => (
                   <li key={index}>
                     <a href={resource.link} className="text-gray-400 hover:text-white transition-colors text-sm">
@@ -103,16 +103,16 @@ const Footer: React.FC = () => {
                 <div className="space-y-2 text-sm">
                   <div className="flex items-center text-gray-400">
                     <Mail className="h-4 w-4 ml-2" />
-                    <a href="mailto:info@eranfixer.com" itemProp="email">info@eranfixer.com</a>
+                    <a href="mailto:info@fixier.org" itemProp="email">info@fixier.org</a>
                   </div>
                   <div className="flex items-center text-gray-400">
                     <Phone className="h-4 w-4 ml-2" />
                     <a href="tel:+972522126366" itemProp="telephone">052-212-6366</a>
                   </div>
                 </div>
-                <a href="https://calendly.com/eranfixer" target="_blank" rel="noopener noreferrer" className="w-full mt-3 bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition-colors text-sm flex items-center justify-center">
+                <a href="#contact" className="w-full mt-3 bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition-colors text-sm flex items-center justify-center">
                   <Calendar className="h-4 w-4 ml-1" />
-                  קביעת פגישה
+                  צור קשר
                 </a>
               </div>
             </div>
@@ -126,10 +126,10 @@ const Footer: React.FC = () => {
               © {currentYear} Fixier.org. כל הזכויות שמורות.
             </div>
             <div className="flex items-center space-x-6 text-sm">
-              <a href="https://fixier.org/terms" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+              <a href="#contact" className="text-gray-400 hover:text-white transition-colors">
                 תנאי שימוש
               </a>
-              <a href="https://fixier.org/privacy" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+              <a href="#contact" className="text-gray-400 hover:text-white transition-colors">
                 מדיניות פרטיות
               </a>
               <a href="https://fixier.org" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors flex items-center">
